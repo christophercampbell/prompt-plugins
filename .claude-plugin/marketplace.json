@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "dev",
-      "source": "../dev",
+      "source": "./plugins/dev",
       "description": "Pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more",
       "version": "1.0.0",
       "license": "MIT",
@@ -20,7 +20,7 @@
     },
     {
       "name": "claude",
-      "source": "../claude",
+      "source": "./plugins/claude",
       "description": "Utility commands for Claude Code itself",
       "version": "1.0.0",
       "license": "MIT",
