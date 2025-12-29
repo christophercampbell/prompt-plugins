@@ -1,4 +1,4 @@
-# Claude Plugins
+# Prompt Plugins
 
 A collection of plugins for Claude Code.
 
