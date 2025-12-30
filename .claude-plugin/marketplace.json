@@ -19,8 +19,8 @@
       "category": "development"
     },
     {
-      "name": "claude",
-      "source": "./plugins/claude",
+      "name": "sys",
+      "source": "./plugins/sys",
       "description": "Utility commands for Claude Code itself",
       "version": "1.0.0",
       "license": "MIT",

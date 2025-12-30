@@ -1,4 +1,4 @@
-# claude
+# sys
 
 Utility commands for Claude Code.
 
@@ -9,14 +9,14 @@ Utility commands for Claude Code.
 ```
 
 ```shell
-/plugin install claude@prompt-plugins
+/plugin install sys@prompt-plugins
 ```
 
 ## Commands
 
-**`/claude:skills`** - Lists all available skills in a table format.
+**`/sys:skills`** - Lists all available skills in a table format.
 
-**`/claude:optimize`** - Audits and cleans up plugin installation.
+**`/sys:optimize`** - Audits and cleans up plugin installation.
 
 Checks:
 - Orphaned cache (in cache but not enabled)
