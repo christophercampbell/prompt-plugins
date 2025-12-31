@@ -16,11 +16,26 @@ Audit and clean up Claude Code plugin installation.
 1. **List enabled plugins** from `settings.json`
 2. **List cached plugins** in `~/.claude/plugins/cache/`
 3. **Check manifest** for duplicate entries or stale references
-4. **Identify issues:**
-   - Orphaned cache: in cache but not enabled
-   - Old versions: multiple versions, only latest needed
-   - Manifest drift: entries pointing to deleted paths
-   - Empty plugins: cache directory exists but contains 0 files
+4. **Identify issues** (see below)
+
+## Output Format
+
+When listing plugins, use this table format:
+
+| Registry | Plugin | Version | Status |
+|----------|--------|---------|--------|
+
+- Registry: project name (e.g., superpowers-marketplace, prompt-plugins); empty if local
+- Plugin: plugin name
+- Version: installed version
+- Status: enabled, orphaned, stale, empty, etc.
+
+## Issues to Identify
+
+- Orphaned cache: in cache but not enabled
+- Old versions: multiple versions, only latest needed
+- Manifest drift: entries pointing to deleted paths
+- Empty plugins: cache directory exists but contains 0 files
 
 ## Cleanup Actions
 
