@@ -1,6 +1,6 @@
 ---
-name: prune
-description: Use only when user explicitly runs /ami:prune command to clean up Claude Code plugin installation
+name: prune-unused
+description: Audit and clean up Claude Code plugin installation
 allowed-tools: Read(~/.claude/**), Edit(~/.claude/**), Write(~/.claude/**), Bash(rm -rf ~/.claude/plugins/cache/*), Bash(rmdir ~/.claude/plugins/cache/*), Bash(ls:*)
 ---
 
