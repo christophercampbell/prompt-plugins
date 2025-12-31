@@ -18,7 +18,11 @@ Pragmatic engineering principles: YAGNI, SOLID, KISS, DRY, fail fast, and more.
 
 ### agent
 
-Utility commands for Claude Code itself.
+Utility commands and skills for Claude Code itself.
+
+**Skill:** `agent:confidence-check`
+- Pre-implementation confidence assessment (≥90% required)
+- Verifies: no duplicates, architecture compliance, official docs, OSS references, root cause
 
 **Command:** `/agent:skills`
 - Lists all available skills in a table format

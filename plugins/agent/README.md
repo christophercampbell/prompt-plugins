@@ -1,6 +1,6 @@
 # agent
 
-Utility commands for Claude Code.
+Utility commands and skills for Claude Code.
 
 ## Installation
 
@@ -11,6 +11,17 @@ Utility commands for Claude Code.
 ```shell
 /plugin install agent@prompt-plugins
 ```
+
+## Skills
+
+**`agent:confidence-check`** - Pre-implementation confidence assessment (≥90% required).
+
+Use before starting any implementation to verify:
+- No duplicate implementations exist
+- Architecture compliance verified
+- Official documentation reviewed
+- Working OSS implementations found
+- Root cause properly identified
 
 ## Commands
 
